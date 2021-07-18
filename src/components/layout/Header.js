@@ -16,12 +16,6 @@ const Header = () => (
         <Link className="px-4" to="/blog">
           Blog
         </Link>
-        <Link className="px-4" to="https://github.com/bruuu">
-          Projects
-        </Link>
-        <Link className="px-4" to="https://www.linkedin.com/in/kristina-brueva/">
-          Resume
-        </Link>
       </div>
     </div>
   </header>
