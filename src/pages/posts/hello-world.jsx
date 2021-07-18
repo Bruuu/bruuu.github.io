@@ -4,7 +4,7 @@ import Layout from "../../components/layout/Layout";
 export default function BlogPost() {
   return (
     <Layout>
-      <div className="relative py-16 bg-white overflow-hidden">
+      <div className="relative py-10 bg-white overflow-hidden ">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div
             className="relative h-full text-lg max-w-prose mx-auto"
@@ -13,20 +13,13 @@ export default function BlogPost() {
         </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
-            <figure>
-              <img
-                className="w-full rounded-lg object-cover h-64"
-                src="https://images.unsplash.com/photo-1617035969271-f26f29cf9d8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1007&q=80"
-                alt="Woman with a laptop"
-              />
-            </figure>
             <h1 className="mt-12 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Hello and Welcome
             </h1>
           </div>
           <div className="mt-8 leading-8 prose prose-indigo prose-lg text-gray-500 mx-auto">
             <p>
-              Hey, thanks for stopping by! My name is Kristina and I am the
+              Hey, thanks for stopping by. My name is Kristina and I am the
               person behind the blog. 👋
             </p>
             <p>
@@ -102,7 +95,10 @@ export default function BlogPost() {
               Does any of that sound interesting for you? Stay tuned! And thanks
               for visiting my blog!
             </p>
-            <img src="https://images.unsplash.com/photo-1579208570378-8c970854bc23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1395&q=80" />{" "}
+            <img
+              className="w-full rounded-lg object-cover h-64"
+              src="https://images.unsplash.com/photo-1579208570378-8c970854bc23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1395&q=80"
+            />{" "}
           </div>
         </div>
       </div>
