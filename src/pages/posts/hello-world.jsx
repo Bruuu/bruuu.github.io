@@ -32,8 +32,8 @@ export default function BlogPost() {
               <p>
                 Currently, I’m a Junior Web Developer, working remotely in an
                 amazing team. My code is mostly in{" "}
-                <span className="italic">JS(React)</span> and I learn{" "}
-                <span className="italic"> Elixir</span>.
+                <span className="italic">JavaScript(React)</span> and I'm
+                learning <span className="italic"> Elixir</span>.
               </p>
             </p>
             <img
@@ -46,7 +46,7 @@ export default function BlogPost() {
                 The very first console I opened by pressing{" "}
                 <span className="italic">“Ctrl + Shift + C”</span> was the Cheat
                 Console in the Sims2. Yeap, the first code I wrote was the code
-                for making my sim rich and immortal, haha! Back that time I had
+                for making my Sim rich and immortal, haha! Back that time I had
                 no Internet in my home yet managed to get a piece of paper with
                 the magical codes from the right person. 🤓
               </li>
@@ -77,7 +77,7 @@ export default function BlogPost() {
             <ul>
               <li>
                 First of all, I want to give support to my readers. Especially,
-                to the ones that just started their carrier in Software
+                to the ones that just started their career in Software
                 Development or thinking about it.
               </li>
               <li>
@@ -97,7 +97,8 @@ export default function BlogPost() {
             </p>
             <img
               className="w-full rounded-lg object-cover h-64"
-              src="https://images.unsplash.com/photo-1579208570378-8c970854bc23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1395&q=80"
+              alt="Hands holding a black paper heart"
+              src="https://images.unsplash.com/photo-1579208575657-c595a05383b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
             />{" "}
           </div>
         </div>
