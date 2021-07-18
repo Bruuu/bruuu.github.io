@@ -4,7 +4,7 @@ module.exports = {
     title: "Personal Blog",
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
