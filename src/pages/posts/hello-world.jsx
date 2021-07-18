@@ -5,56 +5,82 @@ export default function BlogPost() {
   return (
     <Layout>
       <div className="relative py-16 bg-white overflow-hidden">
+        <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+          <div
+            className="relative h-full text-lg max-w-prose mx-auto"
+            aria-hidden="true"
+          ></div>
+        </div>
         <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="text-lg max-w-prose mx-auto">
-            <h1>
-              <span className="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"></span>
-              <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Hello World!
-              </span>
+            <figure>
+              <img
+                className="w-full rounded-lg object-cover h-64"
+                src="https://images.unsplash.com/photo-1617035969271-f26f29cf9d8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1007&q=80"
+                alt="Woman with a laptop"
+              />
+            </figure>
+            <h1 className="mt-12 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Hello and Welcome
             </h1>
-            <p>Hey! Thanks for stopping by and welcome to my blog!</p>
-
-            <p>You may wonder who the hell are you?</p>
-
+          </div>
+          <div className="mt-8 leading-8 prose prose-indigo prose-lg text-gray-500 mx-auto">
             <p>
-              My name is Kristina. Born and raised in Russia, I learned to smile
-              and trust strangers in Australia. I gave up and went back to
-              software development a few times. It’s been an amazing journey
-              that made me who I am now. I worked in big companies, startups and
-              ran small businesses on my own. I was a travel blogger,
-              videographer, pet sitter, housewife and even watercolour artist.
-              Currently, I’m a Junior Web Developer, working remotely in an
-              amazing team. My code is mostly in JS(React) and I learn Elixir.{" "}
+              Hey, thanks for stopping by! My name is Kristina and I am the
+              person behind the blog. 👋
             </p>
-
-            <p>Three random facts about me</p>
-
-            <ul>
+            <p>
+              Born and raised in Russia, I moved to Australia one day. I gave up
+              and went back to Software Development a few times. I worked in big
+              companies, startups and ran small businesses on my own. Apart from
+              programming, I was a travel blogger, videographer, pet sitter,
+              housewife and even watercolour artist. It’s been an amazing
+              journey that made me who I am.
+              <p>
+                Currently, I’m a Junior Web Developer, working remotely in an
+                amazing team. My code is mostly in{" "}
+                <span className="italic">JS(React)</span> and I learn{" "}
+                <span className="italic"> Elixir</span>.
+              </p>
+            </p>
+            <img
+              className="w-full rounded-lg object-cover h-64"
+              src="https://images.unsplash.com/photo-1485981133625-f1a03c887f0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            />
+            <h2>Three random facts about me:</h2>
+            <ol>
               <li>
-                The very first console I opened by pressing “Ctrl + Shift + C”
-                was the Cheat Console in the Sims 2. Yeap, the first code I
-                wrote was the code for making my sim rich and immortal! Back
-                that time I had no Internet in my home yet managed to get a
-                piece of paper with the magical codes from the right person. I
-                loved trying new things so had to learn how to fix the Blue
-                Screens of Death too.{" "}
+                The very first console I opened by pressing{" "}
+                <span className="italic">“Ctrl + Shift + C”</span> was the Cheat
+                Console in the Sims2. Yeap, the first code I wrote was the code
+                for making my sim rich and immortal, haha! Back that time I had
+                no Internet in my home yet managed to get a piece of paper with
+                the magical codes from the right person. 🤓
               </li>
               <li>
-                Knowing only Russian and German I struggled a lot in the
-                University. Writing my first programs in Pascal or C++ with all
-                those “for, else, while, write, count, char, etc“ words I had no
-                idea they were not a gibberish but real English words(!) Oh,
-                little did I know that I would move to English speaking country
-                after all.{" "}
+                <p>
+                  Knowing only Russian and German I struggled a lot in the
+                  University. Writing my first programs in Pascal or C++ with
+                  all those{" "}
+                  <span className="italic">
+                    for, else, while, write, count, char, etc
+                  </span>{" "}
+                  words, ugh. I had no idea they were not gibberish but real
+                  English words! 🤣
+                </p>
+                <p>
+                  Little did I know that I would move to English speaking
+                  country after all.
+                </p>
               </li>
               <li>
-                “Find a mentor” is the best advice you’ve ever been given. And
-                because of that I started my own technical blog.
+                The best advice I’ve ever been given is{" "}
+                <span className="italic">“Find a mentor, Kristina”</span>.
+                Because of that I found my dream job and started my own
+                technical blog.
               </li>
-            </ul>
-            <p>What is the purpose of my blog?</p>
-
+            </ol>
+            <h2>What is the purpose of my blog?</h2>
             <ul>
               <li>
                 First of all, I want to give support to my readers. Especially,
@@ -72,10 +98,11 @@ export default function BlogPost() {
                 Developer and that is my goal now.
               </li>
             </ul>
-            <p>
-              Does any of that sound interesting for you? Stay tuned! Comment,
-              share and subscribe. Many thanks!
+            <p className="pt-10">
+              Does any of that sound interesting for you? Stay tuned! And thanks
+              for visiting my blog!
             </p>
+            <img src="https://images.unsplash.com/photo-1579208570378-8c970854bc23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1395&q=80" />{" "}
           </div>
         </div>
       </div>

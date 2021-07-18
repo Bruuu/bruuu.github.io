@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
+    "deploy": "npm run fix-gh-pages && gatsby build && gh-pages -d public -b blog",
+    "fix-gh-pages": "rm -rf node_modules/.cache/gh-pages",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
