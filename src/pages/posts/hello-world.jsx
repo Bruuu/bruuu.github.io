@@ -39,6 +39,7 @@ export default function BlogPost() {
             <img
               className="w-full rounded-lg object-cover h-64"
               src="https://images.unsplash.com/photo-1485981133625-f1a03c887f0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt=""
             />
             <h2>Three random facts about me:</h2>
             <ol>
@@ -67,10 +68,9 @@ export default function BlogPost() {
                 </p>
               </li>
               <li>
-                The best advice I’ve ever been given is{" "}
-                <span className="italic">“Find a mentor, Kristina”</span>.
-                Because of that I found my dream job and started my own
-                technical blog.
+                The best advice I’ve ever been given was{" "}
+                <span className="italic">“Find a mentor”</span>. Seriously, that
+                changed my life.
               </li>
             </ol>
             <h2>What is the purpose of my blog?</h2>

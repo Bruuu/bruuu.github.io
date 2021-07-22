@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.bruuu.github.io",
     title: "Personal Blog",
   },
   plugins: [
@@ -9,10 +9,9 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `blog`,
+        path: `${__dirname}/blog`,
       },
-      __key: "pages",
     },
   ],
 };
